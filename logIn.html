@@ -1,8 +1,51 @@
 <html>
     <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <title>fireMessage</title>
+
+        <!--Go to https://console.firebase.google.com-->
+        <!--Sign in and add a project "fireMessage"-->
+        <!--PASTE SNIPPET HERE-->
+
+        <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+            apiKey: "AIzaSyBxXN2YODDSUKbUFNnzlfJtP_K5tk917b0",
+            authDomain: "firemessage-2e602.firebaseapp.com",
+            databaseURL: "https://firemessage-2e602.firebaseio.com",
+            projectId: "firemessage-2e602",
+            storageBucket: "",
+            messagingSenderId: "376661184908"
+            };
+            firebase.initializeApp(config);
+        </script>
+
+
+
+        <!--jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
+
+        <!--custom(JS) files-->
+       <script src="lib/js/main.js"></script>
+       <link rel="stylesheet" href="lib/css/style.css">
     </head>
     <body>
+      <div class="container">
+        <form class="form-signin">
+            <h2 class="form-signin-heading">Please Sign In</h2>
+
+            <label for="inputUsername" class="sr-only">Username</label>
+            <input type="username" id="inputUsername" class="form-control" placeholder="Username" required="" autofocus="">
+            <button  href="index.html" type="submit" onclick="clickSubmit()"/> Submit </button>
+      </form>
+
             
     </body>
 </html>
