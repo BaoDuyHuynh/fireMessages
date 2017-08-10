@@ -1,67 +1,27 @@
-html,body{
-    margin:0;
-    height:100%;
-}
-
 body{
-    background-color: green;
+    background-color: black;
 }
 
-h1{
-    /*GOOGLE FONTS*/
-    /*font-family: 'Asul', sans-serif;*/
-    /*font-family: 'Alike Angular', serif;*/
-    /*font-family: 'Eczar', serif;*/
-    font-family: 'Eczar', serif;
-    font-size: 45px;
-    margin:0;
-    color:white;
-    text-align: center;
-}
 .allMessages{
-    position:relative;
-    height:70%;
-    margin: 0 auto;
-    width: 60%;
-    border: 2px solid blue;
-    background-color: white;
-    overflow-y: scroll;
-    overflow-wrap: break-word;
+    width: 80%;
+    height:600px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 0;
+    padding-left: 5%;
 }
 
-.userContainer{
-    position:relative;
-    height:10%;
-    margin: 20px auto 0 auto;
-    width: 60%;
-    border: 2px solid yellow;
-    background-color: oldlace;
+.inp{
+    width: 80%; 
+    margin: auto;
 }
 
-
-.textContainer div p{
-    /*GOOGLE FONTS*/
-    /*font-family: 'Asul', sans-serif;*/
-    /*font-family: 'Alike Angular', serif;*/
-    /*font-family: 'Eczar', serif;*/
-    font-family: 'Asul', sans-serif;
-    font-size: 1em;
-    display: inline-block;
-    width:23%;
-    margin:0;
-}
-
-input{
-    width:75%;
-}
-
-.textContainer div{
-    width:100%;
-}
-
-.GObutton{
-    width:50%;
-    margin: 0 auto;
+#message{
+     margin-top: 1%;
+     margin-left: 8%;
+     height: auto;
+     border: 2px dashed white;
 }
 
 .GObutton input{
